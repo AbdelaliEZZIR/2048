@@ -271,8 +271,8 @@ const App: React.FC = () => {
             if (absDx > absDy) {
                 move(dx > 0 ? 'right' : 'left');
             } else {
-                // Natural swipe controls for mobile
-                move(dy > 0 ? 'down' : 'up');
+                // Inverted swipe controls for mobile
+                move(dy > 0 ? 'up' : 'down');
             }
         }
     }
