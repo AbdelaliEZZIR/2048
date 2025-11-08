@@ -281,7 +281,12 @@ const App: React.FC = () => {
 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+    <div
+      className="flex flex-col items-center justify-center min-h-screen p-4"
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      style={{ touchAction: 'none' }}
+    >
       <header className="flex items-stretch justify-between w-full max-w-md mb-4 gap-2 sm:gap-3">
         <div className="p-2 flex items-center justify-center bg-yellow-500 rounded-lg">
             <h1 className="text-3xl sm:text-4xl font-bold text-white">2048</h1>
