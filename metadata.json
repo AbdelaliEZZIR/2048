@@ -1,0 +1,5 @@
+{
+  "name": "2048 Game",
+  "description": "A fully functional 2048 game built with React and Tailwind CSS. Players combine tiles with the same number to reach the 2048 tile. The game supports both keyboard controls for desktop and swipe gestures for mobile devices.",
+  "requestFramePermissions": []
+}
